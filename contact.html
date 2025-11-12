@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Контакты — GRAPHITE Auto Atelier</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+	<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="index.html"><img src="assets/logo.svg" alt=""> <span>GRAPHITE</span></a>
+		<nav class="nav">
+			<a href="services.html">Услуги</a>
+			<a href="portfolio.html">Портфолио</a>
+			<a href="contact.html" class="cta">Записаться</a>
+		</nav>
+		<button class="nav-toggle" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+	</header>
+
+	<main class="page">
+		<div class="container page-head">
+			<h1 class="title-l">Контакты</h1>
+			<p class="muted">Мы на связи в мессенджерах. Запишем на диагностику и подберём решение под ваш автомобиль.</p>
+		</div>
+
+		<section class="section">
+			<div class="container grid-2">
+				<div class="card">
+					<h2 class="title-l" id="book">Заявка</h2>
+					<form class="form" data-booking>
+						<div class="row">
+							<input class="input" type="text" name="name" placeholder="Ваше имя" required>
+							<input class="input" type="tel" name="phone" placeholder="Телефон или WhatsApp" required>
+						</div>
+						<div class="row">
+							<input class="input" type="text" name="car" placeholder="Марка и модель">
+							<select class="select" name="service">
+								<option value="">Выберите услугу</option>
+								<option>Black Mirror</option>
+								<option>Graphite Shield</option>
+								<option>Crystal Skin (PPF)</option>
+								<option>Total Black (интерьер)</option>
+								<option>Velvet Touch (кожа)</option>
+								<option>Арт-винил</option>
+							</select>
+						</div>
+						<textarea class="textarea" name="msg" placeholder="Комментарий (состояние авто, пожелания)"></textarea>
+						<button class="btn btn-primary" type="submit">Отправить</button>
+					</form>
+				</div>
+				<div class="card">
+					<h2 class="title-l">Как нас найти</h2>
+					<p class="muted">Графитовая набережная, 7, корпус А. Ежедневно 10:00–21:00.</p>
+					<div style="border-radius:14px; overflow:hidden; border:1px solid #1a1e25">
+						<iframe title="Map" width="100%" height="300" style="filter: grayscale(100%) invert(90%) contrast(90%);"
+							src="https://maps.google.com/maps?q=Moscow%20City&t=k&z=14&ie=UTF8&iwloc=&output=embed"></iframe>
+					</div>
+					<div class="list" style="margin-top:12px">
+						<a class="pill" href="tel:+79999999999">+7 999 999-99-99</a>
+						<a class="pill" target="_blank" rel="noopener" href="https://wa.me/79999999999">WhatsApp</a>
+						<a class="pill" target="_blank" rel="noopener" href="https://t.me/">Telegram</a>
+						<a class="pill" target="_blank" rel="noopener" href="https://instagram.com">Instagram</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer__grid">
+			<div class="footer__brand">
+				<img src="assets/logo.svg" alt="">
+				<p>Auto Atelier — арт-пространство детейлинга</p>
+			</div>
+			<nav class="footer__nav">
+				<a href="services.html">Услуги</a>
+				<a href="portfolio.html">Портфолио</a>
+				<a href="contact.html">Контакты</a>
+				<a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+			</nav>
+			<div class="footer__cta">
+				<a class="btn btn-primary" href="#book">Забронировать</a>
+			</div>
+		</div>
+		<div class="container footer__legal">
+			<span>© <span id="year"></span> GRAPHITE Auto Atelier</span>
+			<span>Детейлинг как искусство</span>
+		</div>
+	</footer>
+
+	<script src="assets/app.js"></script>
+</body>
+</html>
+
+
