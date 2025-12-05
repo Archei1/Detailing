@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Портфолио — GRAPHITE Auto Atelier</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+	<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="index.html"><img src="assets/logo.svg" alt=""> <span>GRAPHITE</span></a>
+		<nav class="nav">
+			<a href="services.html">Услуги</a>
+			<a href="portfolio.html">Портфолио</a>
+			<a href="contact.html" class="cta">Записаться</a>
+		</nav>
+		<button class="nav-toggle" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+	</header>
+
+	<main class="page">
+		<div class="container page-head">
+			<h1 class="title-l">Портфолио</h1>
+			<div class="list" data-filter-bar>
+				<button class="pill active" data-filter="all">Все</button>
+				<button class="pill" data-filter="exterior">Экстерьер</button>
+				<button class="pill" data-filter="interior">Интерьер</button>
+				<button class="pill" data-filter="ppf">PPF</button>
+				<button class="pill" data-filter="vinyl">Арт-винил</button>
+			</div>
+		</div>
+
+		<section class="section gallery">
+			<div class="container">
+				<div class="masonry">
+					<figure id="bmw-m5" class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://i.pinimg.com/originals/e1/03/27/e10327e6b898f52daba435d96596095a.jpg" alt="BMW M5 Black Mirror">
+						<figcaption class="tile__label">BMW M5 — Black Mirror</figcaption>
+					</figure>
+					<figure id="911-ppf" class="tile reveal" data-filter-item data-tags="ppf,exterior">
+						<img src="https://live.staticflickr.com/65535/52067831717_7d7f7648bc_b.jpg" alt="Porsche 911 Crystal Skin">
+						<figcaption class="tile__label">Porsche 911 — Crystal Skin</figcaption>
+					</figure>
+					<figure id="art-wrap" class="tile reveal" data-filter-item data-tags="vinyl,exterior">
+						<img src="https://a.d-cd.net/_i82ZXrcOyySiILPHC98YAweOsE-960.jpg" alt="Art Wrap Series">
+						<figcaption class="tile__label">Graphite Art Series — винил</figcaption>
+					</figure>
+					<figure id="interior" class="tile reveal" data-filter-item data-tags="interior">
+						<img src="https://i.pinimg.com/originals/09/52/a9/0952a96c38d31e4587a21f0aede15613.jpg" alt="Velvet Touch">
+						<figcaption class="tile__label">Velvet Touch — интерьер</figcaption>
+					</figure>
+					<figure id="mercedes" class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2812ee99599941.5ef6230740e82.jpg" alt="Mercedes AMG Graphite Shield">
+						<figcaption class="tile__label">Mercedes AMG — Graphite Shield</figcaption>
+					</figure>
+					<figure id="audi" class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://i.pinimg.com/474x/22/3b/82/223b829c57c6bbd2689d2f70115b7ca2.jpg" alt="Audi RS6 полный комплекс">
+						<figcaption class="tile__label">Audi RS6 — Полный комплекс</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://fb.ru/misc/i/gallery/2/3528757.jpg" alt="Контроль качества в студии">
+						<figcaption class="tile__label">Контроль качества</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="ppf">
+						<img src="https://carsoul.com.br/wp-content/uploads/2025/08/AHaJ2uQHSOK2hi-7nL6Lbg-1-1.jpeg" alt="PPF нанесение">
+						<figcaption class="tile__label">PPF — идеальные подвороты</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="interior">
+						<img src="https://i.pinimg.com/736x/a5/f4/5f/a5f45ff642b4ce9ac191938d86cb11e5.jpg" alt="Детейлинг салона">
+						<figcaption class="tile__label">Total Black — салон</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://avatars.mds.yandex.net/get-altay/4824927/2a0000017758c66085689d28774e1c4994cf/XXXL" alt="Полировка кузова">
+						<figcaption class="tile__label">Black Mirror — полировка</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="vinyl">
+						<img src="https://i.pinimg.com/originals/00/11/fc/0011fcd572b1335ba0a028a9ab4ac24a.jpg" alt="Арт-винил кастом">
+						<figcaption class="tile__label">Кастомный паттерн</figcaption>
+					</figure>
+					<figure class="tile reveal" data-filter-item data-tags="exterior">
+						<img src="https://static.tildacdn.com/lib/unsplash/c397a49c-1183-fe0a-913e-a3fe61e4c1b6/photo.jpg" alt="Готовый результат">
+						<figcaption class="tile__label">Готовый результат</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer__grid">
+			<div class="footer__brand">
+				<img src="assets/logo.svg" alt="">
+				<p>Auto Atelier — арт-пространство детейлинга</p>
+			</div>
+			<nav class="footer__nav">
+				<a href="services.html">Услуги</a>
+				<a href="portfolio.html">Портфолио</a>
+				<a href="contact.html">Контакты</a>
+				<a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+			</nav>
+			<div class="footer__cta">
+				<a class="btn btn-primary" href="contact.html#book">Забронировать</a>
+			</div>
+		</div>
+		<div class="container footer__legal">
+			<span>© <span id="year"></span> GRAPHITE Auto Atelier</span>
+			<span>Детейлинг как искусство</span>
+		</div>
+	</footer>
+
+	<script src="assets/app.js"></script>
+</body>
+</html>
+
+
